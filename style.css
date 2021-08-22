@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  color: white;
+  align-items: center;
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.new-form {
+  display: flex;
+  flex-direction: column;
+  border: grey solid 1px;
+  width: fit-content;
+  border-radius: 8px;
+  padding: 20px;
+  margin-right: 50px;
+}
+
+.new-form label {
+  margin: 0 0 10px;
+  font-size: 24px;
+  width: fit-content;
+}
+
+.original-form {
+  display: flex;
+  width: 675px;
+  padding: 30px;
+  flex-direction: column;
+  height: 30%;
+  font-size: smaller;
+}
+
+#form-title {
+  width: 100%;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#families {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-left: 50px;
+}
+
+.family {
+  margin-bottom: 15px;
+}
+
+.label {
+  margin-bottom: 10px;
+}
+
+#contents {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: center;
+}
+
+#families-n-contents {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 20px 20px 5px;
+}
+
+.forms-boxes {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  align-items: center;
+}
+
+.input-form {
+  height: 30px;
+  margin: 2px;
+  border-radius: 8px;
+  width: 250px;
+  border: 1px solid grey;
+}
+
+#house {
+  width: 130px;
+  margin-left: 5px;
+}
+
+#input-email {
+  margin-right: 20px;
+}
+
+hr {
+  align-self: center;
+  background-color: grey;
+  width: 400px;
+}
+
+.check-label {
+  margin-right: 10px;
+}
+
+.checkboxes {
+  margin-bottom: 5px;
+}
+
+#rating-n-comment {
+  padding: 0 20px;
+}
+
+#rating {
+  display: flex;
+  justify-content: space-around;
+}
+
+#textarea-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+
+.textarea {
+  margin: 0 0 10px;
+}
+
+#label-infos {
+  margin: 10px 0;
+}
+
+#submit-btn {
+  width: 200px;
+  height: 30px;
+  align-self: center;
+}
+
+.counter-text {
+  width: fit-content;
+  margin-right: 5px;
+  align-self: flex-start;
+}
+
+#spam {
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer {
+  text-align: center;
+  font-weight: 500;
+  background-color: gray;
+  color: white;
+}
